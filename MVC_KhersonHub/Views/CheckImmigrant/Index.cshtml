@@ -1,0 +1,70 @@
+﻿@page
+@model Immigrant
+@{
+
+    <table>
+    <td>Прізвище</td>
+    <td>Ім'я</td>
+    <td>По-батькові</td>
+    <td>Дата народження</td>
+    <td>Номер телефону</td>
+    <td>Місце зареєстрованого місця проживання</td>
+    <td>Місце фактичного проживання</td>
+    <td>Номер довідки ВПО</td>
+    <td>Кількість дітей до 18 років</td>
+    <td>Фото довідки</td>
+    </table>
+    foreach(Immigrant imm in ViewBag.Im)
+    {
+        <br />
+
+
+        <table>
+        <tr>
+        
+                <td>
+                    @imm.FirstName
+                </td>
+
+                <td>
+                    @imm.SurName
+                </td>
+
+                <td>
+                    @imm.Patronymic 
+                </td>
+
+                <td>
+                    @imm.Date
+                </td>
+
+                <td>
+                    @imm.Number
+                </td>
+
+                <td>
+                    @imm.RegisteredResidence
+                </td>
+
+                <td>
+                    @imm.ActualResidence
+                </td>
+
+                <td>
+                    @imm.IDP_number
+                </td>
+
+                <td>
+                    @imm.Number_of_children
+                </td>
+
+                <td>
+                    <img src="data:image;base64,@System.Convert.ToBase64String(imm.Img)" width="180" height="180" />
+                </td>
+        </tr>
+            </table>
+
+                                                               
+        
+    }
+}

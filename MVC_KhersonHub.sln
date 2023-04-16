@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_KhersonHub", "MVC_KhersonHub\MVC_KhersonHub.csproj", "{FEF41C78-1E5E-4A82-ADA2-15C049D5754E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF41C78-1E5E-4A82-ADA2-15C049D5754E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF41C78-1E5E-4A82-ADA2-15C049D5754E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF41C78-1E5E-4A82-ADA2-15C049D5754E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF41C78-1E5E-4A82-ADA2-15C049D5754E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7DD08FA-B9AF-4407-8C17-634A24C7A50C}
+	EndGlobalSection
+EndGlobal
